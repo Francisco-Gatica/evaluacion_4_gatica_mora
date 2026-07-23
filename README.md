@@ -40,20 +40,12 @@ ThemeToggle.tsx
 useCookie.ts 
 useLocalStorage.ts  
 useSessionStorage.ts
-│   │
-│   ├── types/
-│   │   └── Product.ts  
-│   │
-│   └── utils/
-│       ├── initialData.ts  
-│       ├── styles.ts
-│       └── validations.ts 
-│
-├── .gitignore 
-├── package-lock.json
-├── package.json   
-├── README.md
-└── tsconfig.json
+- types
+Product.ts  
+- utils
+initialData.ts  
+styles.ts
+validations.ts 
 
 ## Funcionalidades 
 - Crear recurso
