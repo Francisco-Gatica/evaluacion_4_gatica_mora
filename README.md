@@ -25,23 +25,21 @@ Aplicación SPA desarrollada con React y Next.js para administrar recursos tecno
 ## Estructura del programa
 evaluacion_4_gatica_mora/                           
 - app
-  *globals.css         
---layout.tsx          
---page.tsx               
-│   │
-│   ├── components/
-│   │   ├── FilterCategory.tsx   
-│   │   ├── Header.tsx            
-│   │   ├── ResourceCard.tsx      
-│   │   ├── ResourceForm.tsx       
-│   │   ├── ResourceList.tsx      
-│   │   ├── SearchBar.tsx         
-│   │   └── ThemeToggle.tsx  
-│   │
-│   ├── hooks/
-│   │   ├── useCookie.ts 
-│   │   ├── useLocalStorage.ts  
-│   │   └── useSessionStorage.ts
+globals.css         
+layout.tsx          
+page.tsx               
+- components
+FilterCategory.tsx   
+Header.tsx            
+ResourceCard.tsx      
+ResourceForm.tsx       
+ResourceList.tsx      
+SearchBar.tsx         
+ThemeToggle.tsx  
+- hooks
+useCookie.ts 
+useLocalStorage.ts  
+useSessionStorage.ts
 │   │
 │   ├── types/
 │   │   └── Product.ts  
