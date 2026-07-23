@@ -22,7 +22,7 @@ Aplicación SPA desarrollada con React y Next.js para administrar recursos tecno
 - npm install
 - npm run dev
 
-## Estructura del programa
+## Estructura de carpetas
 ```text
 src/
 ├── app/
