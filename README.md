@@ -16,8 +16,8 @@ Aplicación SPA desarrollada con React y Next.js para administrar recursos tecno
 - Cookies
 
 ## Instalación y ejecución
-´´´bash
-git (https://github.com/Francisco-Gatica/evaluacion_4_gatica_mora)
+´´´bash 
+git clone https://github.com/Francisco-Gatica/evaluacion_4_gatica_mora
 cd evaluacion_4_gatica_mora
 npm install
 npm run dev
