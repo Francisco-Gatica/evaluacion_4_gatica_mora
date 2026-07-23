@@ -14,7 +14,7 @@ const DEFAULT_PREFERENCES: Preferences = {
   compact: false,
 };
 
-const COOKIE_NAME = "lab_preferences"; // Clave exigida en las especificaciones[cite: 1]
+const COOKIE_NAME = "lab_preferences";
 
 function getCookie(name: string): string | null {
   if (typeof document === "undefined") return null;
