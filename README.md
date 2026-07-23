@@ -23,29 +23,34 @@ Aplicación SPA desarrollada con React y Next.js para administrar recursos tecno
 - npm run dev
 
 ## Estructura del programa
-evaluacion_4_gatica_mora/                           
-- app:
-globals.css         
-layout.tsx          
-page.tsx               
-- components
-FilterCategory.tsx   
-Header.tsx            
-ResourceCard.tsx      
-ResourceForm.tsx       
-ResourceList.tsx      
-SearchBar.tsx         
-ThemeToggle.tsx  
-- hooks
-useCookie.ts 
-useLocalStorage.ts  
-useSessionStorage.ts
-- types
-Product.ts  
-- utils
-initialData.ts  
-styles.ts
-validations.ts 
+```text
+src/
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx               # Configuración de layout y fuentes (Geist)
+│   └── page.tsx                 # Vista principal (Home) e integración de componentes
+│
+├── components/
+│   ├── FilterCategory.tsx       # Selector para filtrar recursos por categoría
+│   ├── Header.tsx               # Encabezado principal (título y usuario)
+│   ├── ResourceCard.tsx         # Tarjeta individual para vista móvil/compacta
+│   ├── ResourceForm.tsx         # Formulario de creación/edición con validaciones
+│   ├── ResourceList.tsx         # Tabla principal del inventario
+│   ├── SearchBar.tsx            # Barra de búsqueda por nombre
+│   └── ThemeToggle.tsx          # Selector de tema (Cookies)
+│
+├── hooks/
+│   ├── useCookie.ts             # Persistencia de preferencias simples
+│   ├── useLocalStorage.ts       # Persistencia del CRUD de productos
+│   └── useSessionStorage.ts     # Memoria de la sesión para los filtros
+│
+├── types/
+│   └── Product.ts               # Interfaces y tipado estricto
+│
+└── utils/
+    ├── initialData.ts           # Datos de prueba para inicializar el Local Storage
+    ├── styles.ts                # Clases de Tailwind centralizadas
+    └── validations.ts
 
 ## Funcionalidades 
 - Crear recurso
