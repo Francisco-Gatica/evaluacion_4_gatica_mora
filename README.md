@@ -23,15 +23,11 @@ Aplicación SPA desarrollada con React y Next.js para administrar recursos tecno
 - npm run dev
 
 ## Estructura del programa
-evaluacion_4_gatica_mora/
-├── docs/                             
-│   └── capturas          
-├── public/                      
-├── src/
-│   ├── app/
-│   │   ├── globals.css         
-│   │   ├── layout.tsx          
-│   │   └── page.tsx               
+evaluacion_4_gatica_mora/                           
+- app
+--globals.css         
+--layout.tsx          
+--page.tsx               
 │   │
 │   ├── components/
 │   │   ├── FilterCategory.tsx   
