@@ -25,7 +25,7 @@ Aplicación SPA desarrollada con React y Next.js para administrar recursos tecno
 ## Estructura del programa
 evaluacion_4_gatica_mora/                           
 - app
---globals.css         
+  *globals.css         
 --layout.tsx          
 --page.tsx               
 │   │
